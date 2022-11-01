@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_page/auth/ui/pages/botto_page.dart';
 import 'register_page.dart';
 import 'package:login_page/main.dart';
 
@@ -84,7 +85,7 @@ class _MyLoginState extends State<MyLogin> {
                                       Navigator.push(
                                           context,
                                           MaterialPageRoute(
-                                              builder: (context) => MyRegister()));
+                                              builder: (context) => BottomPage()));
                                     },
                                     icon: Icon(
                                       Icons.arrow_forward,
